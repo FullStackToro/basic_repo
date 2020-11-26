@@ -1,0 +1,12 @@
+paso 1.- En la pagina de Github se creo un nuevo repositorio
+paso 2.- En la ruta C:\FullStackPython\git se utiliza el comando git init basic_repo para crear un nuevo repositorio
+paso 3.- Mediante el comando touch se crean tres archivos (touch basic_repo.html / touch basic_repo.css / touch basic_repo_text.txt) agregando contenido en el archivo .css y el archivo .html
+paso 4.- Se utilizan los siguientes comandos
+
+	git add .
+	git commit -m "basic_repo"
+	git remote add origin https://github.com/FullStackToro/basic_repo.git
+	git branch -m main
+	git push -u origin main
+
+paso 5.- se verifica el contenido en el repositorio remoto ubicado en github
